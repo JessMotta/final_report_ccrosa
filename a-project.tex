@@ -112,6 +112,8 @@
 \usepackage{lipsum}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{pdfpages}
+
 %
 \makeindex 
 \setlength{\LTcapwidth}{\textwidth}
@@ -197,7 +199,7 @@
 % Include thesis chapters
     \parskip=\baselineskip
     \include{Chapters/introducao}
-    \include{Chapters/fundamentos}
+    %\include{Chapters/fundamentos}
     \include{Chapters/metodos}
     \include{Chapters/resultados}
     \include{Chapters/conclusao}
@@ -206,6 +208,7 @@
 % ----------------------------------------------------------------------------
 % Include thesis appendices
     \begin{thesisappendices}
+        \includepdf[pages={1-134}]{Appendices/report_manipulador_jerotimon.pdf}
         \include{Appendices/diagmec}
         \include{Appendices/diagele}
         \include{Appendices/logbook}
