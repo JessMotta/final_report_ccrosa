@@ -501,10 +501,10 @@
         \raggedright
         \hspace*{5mm} Apresentada por: 
         \hspace*{11mm} \@thesisauthor \\
-        \hspace*{57mm} \@thesisauthorr \\
-        \hspace*{57mm} \@thesisauthorrr \\
-        \hspace*{57mm} \@thesisauthorrrr \\ 
-         \hspace*{57mm} \@thesisauthorrrrr \\ \par
+        \hspace*{57mm} \ \\
+        \hspace*{57mm} \ \\
+        \hspace*{57mm} \ \\ 
+         \hspace*{57mm} \ \\ \par
         \vspace*{45mm}
         % \hspace*{5mm} Orientador: \hspace*{23mm} \@thesisadvisor \par
         % \if@coadvisor
@@ -533,19 +533,19 @@
 }
 
 \newenvironment{theauthorr}{%
-\@thesisauthorr
+\
 }
 
 \newenvironment{theauthorrr}{%
-\@thesisauthorrr
+\
 }
 
 \newenvironment{theauthorrrr}{%
-\@thesisauthorrrr
+\
 }
 
 \newenvironment{theauthorrrrr}{%
-\@thesisauthorrrrr
+\
 }
 
 \newenvironment{thetitle}{%
