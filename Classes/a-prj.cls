@@ -501,11 +501,11 @@
         \raggedright
         \hspace*{5mm} Apresentada por: 
         \hspace*{11mm} \@thesisauthor \\
-        \hspace*{57mm} \ \\
-        \hspace*{57mm} \ \\
-        \hspace*{57mm} \ \\ 
-         \hspace*{57mm} \ \\ \par
-        \vspace*{45mm}
+        \hspace*{11mm} \ \\
+        \hspace*{11mm} \ \\
+        \hspace*{11mm} \ \\ 
+         \hspace*{11mm} \ \\ \par
+        \vspace*{40mm}
         % \hspace*{5mm} Orientador: \hspace*{23mm} \@thesisadvisor \par
         % \if@coadvisor
         %     \hspace*{5mm} Co-orientador: \hspace*{17mm} \@thesiscoadvisor \par
