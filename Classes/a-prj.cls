@@ -690,8 +690,8 @@
     \ifpdf
         \pdfbookmark[1]{Sumário}{toc} \tableofcontents
         \newpage
-        \pdfbookmark[1]{Lista de Tabelas}{lot}\listoftables
-        \newpage
+        %\pdfbookmark[1]{Lista de Tabelas}{lot}\listoftables
+        %\newpage
         \pdfbookmark[1]{Lista de Figuras}{lof} \listoffigures
         \newpage
     \else
