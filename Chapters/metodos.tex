@@ -9,12 +9,12 @@ Nas próximas seções estarão descritos os materiais e métodos aplicados para
 %--------- NEW SECTION ----------------------
 \section{Manipulador TIMON-HM- Desafio 2.0}
 \label{sec:met_desafio2}
-O segundo desafio foi realizado em grupo composto por mim, Leonardo, Miguel e Vinícius, onde um manipulador deveria ser concebido desde sua fase inicial modelando toda sua estrutura e posteriormente realizada a simulação deste no \textit{Gazebo}, com a missão da câmera integrada ao manipulador identificar o \textit{ArUco} na caixa e pressionar o botão. Este desafio também foi realizada apenas a simulação, por isso apenas o computador foi utilizado.  
+O segundo desafio foi realizado em grupo, onde um manipulador deveria ser concebido desde sua fase inicial modelando toda sua estrutura e posteriormente realizada a simulação deste no \textit{Gazebo}, com a missão da câmera integrada ao manipulador identificar o \textit{tag ArUco} na caixa e pressionar o botão. Este desafio também foi realizada apenas a simulação, por isso apenas o computador foi utilizado.  
 
 %--------- NEW SECTION ----------------------
 \section{Manipulador Robótico JeRoTIMON- Desafio 2.2 }
 \label{sec:met_desafio2_2}
-Este desafio foi para construir o modelo real do manipulador JeRoTIMON modelado no desafio \ref{sec:met_desafio2}, realizado com a equipe composta por mim, Jean, Leonardo, Miguel, Vinícius e Rodrigo, onde o objetivo era o mesmo, reconhecer a \textit{tag ArUco} na caixa e pressionar o botão, só que dessa vez no ambiente real. Os materiais utilizados nesse desafio foram perfis de alumínio, motores \textit{Dynamixel}, câmera RGB modelo \textit{Teledyne Genie Nano C2590},  peças modeladas no \textit{OnShape} e impressas em \textit{ABS} por uma impressora 3D, conexões para alimentação e para comunicação
+Este desafio foi para construir o modelo real do manipulador JeRoTIMON modelado e simulado no desafio \ref{sec:met_desafio2}, realizado em grupo, onde o objetivo era o mesmo, reconhecer a \textit{tag ArUco} na caixa e pressionar o botão, só que dessa vez no ambiente real. Os materiais utilizados nesse desafio foram perfis de alumínio, motores \textit{Dynamixel}, câmera RGB modelo \textit{Teledyne Genie Nano C2590},  peças modeladas no \textit{OnShape} e impressas em \textit{ABS} por uma impressora 3D, conexões para alimentação e para comunicação
 
 %--------- NEW SECTION ----------------------
 \section{TIMON- HM- Desafio 2.5}
@@ -26,13 +26,13 @@ O desafio 2.5 foi realizado em equipe, a mesma do desafio \ref{sec:met_desafio2}
 \section{UGV SACI: Integrado com Detecção Visual e Manipulador- Desafio 3.0}
 \label{sec:met_desafio3}
 Neste desafio foi desenvolvido o Saci, que integra o veículo autônomo da \textit{Clearpath Robotics Warthog} equipado com sensores (câmeras, LiDAR e GPS) e o manipulador robótico JeRoTIMON, com o propósito de transformá-lo em um robô autônomo. Este foi construído com o intuito de que o mesmo tivesse navegação autônoma para realizar investigação em ambiente externo e construir um mapa deste ambiente, detectasse a "bomba" escondida, e realizasse o desarme da bomba através do manipulador. 
-Esse projeto foi desenvolvido em duas etapas, a de simulação, onde foram utilizados o software  \textit{Gazebo} e a ferramenta de visualização \textit{Rviz}, e para o manipulador foi utilizado \textit{MoveIt}. E posteriormente este robô também ganhou sua versão real onde foi possível realizar testes e verificar seu desempenho em campo.
+Esse projeto foi desenvolvido em duas etapas, a de simulação, onde foram utilizados o software  \textit{Gazebo} e a ferramenta de visualização \textit{Rviz}, e para configuração do pacote de parâmetros do manipulador foi utilizado \textit{MoveIt}. E em paralelo foi desenvolvido este robô em sua versão real, onde foi possível realizar testes e verificar seu desempenho em campo.
 
 
 
 \section{Analíse estatística R\&R da simulação do robô Darwin OP}
 \label{sec:met_analise_darwin}
-Teve como objetivo analisar o sistema de medição de dados coletados durante os testes realizados nas etapas: de corrida e de revezamento do Desafio 2.5 (\ref{sec:met_desafio2_5}), utilizando o método de análise de variância (ANOVA). Nessa análise foi possível aplicar os conhecimentos obtidos em estatística, utilizando a ferramenta e linguagem de programação \textit{R} em um projeto realizado durante o curso, a fim de verificar o desempenho desse projeto. Como, por exemplo, a análise de precisão através do estudo R\&R (Repetibilidade e Reprodutibilidade). Foram utilizadas apenas as ferramentas de simulação e para realizar o estudo estatístico.
+Teve como objetivo analisar o sistema de medição dos dados coletados durante os testes realizados nas etapas: de marcha e de revezamento do Desafio 2.5 (\ref{sec:met_desafio2_5}), utilizando o método de análise de variância (ANOVA). Nessa análise foi possível aplicar os conhecimentos obtidos em estatística, utilizando a ferramenta e linguagem de programação \textit{R} em um projeto realizado durante o curso, a fim de verificar o desempenho desse projeto, exemplo, a análise de precisão produzida através do estudo R\&R (Repetibilidade e Reprodutibilidade). Foram utilizadas apenas as ferramentas de simulação e para realização do estudo estatístico.
 
 
 \section{Planejamento de Experimentos (DOE) -Helicóptero de Papel (TIMON-HM)}
@@ -42,4 +42,4 @@ Esse experimento teve como objetivo aplicar os conceitos de Planejamento de Expe
 \section{Artigo publicado TRIS: Thermal Remote Identification System of Feverish People }
 \label{sec:met_tris}
 
-Esse projeto, que possui também um sistema real de mesmo nome \textit{(TRIS)}, foi modelado a partir da necessidade exposta pela pandemia do COVID-19, para identificar pessoas  foram usadas câmeras (RGB e Infravermelho), um computador para utilizar uma rede neural, e que identificasse pessoas com temperatura acima de 37,8 $^\circ$C, e informasse que aquela pessoa em questão era objeto de interesse pois estaria com febre, ou estado febril, que é um dos sintomas do COVID-19. Esse sistema foi criado com o próposito de realizar o controle da propagação do vírus. Nesse projeto puderam ser desenvolvidos os conhecimentos de rede neural, interface de sistemas, utilização de câmeras RGB e Infravermelho, e a evolução de um projeto.
+Esse artigo, que possui também um sistema real de mesmo nome \textit{(TRIS)}, foi modelado a partir da necessidade exposta pela pandemia do COVID-19, para identificar pessoas  foram usadas câmeras (RGB e Infravermelho), um computador para utilizar uma rede neural, e que identificasse pessoas com temperatura acima de 37,8 $^\circ$C, e informasse que aquela pessoa em questão era objeto de interesse pois estaria com febre, ou estado febril, que é um dos sintomas do COVID-19. Esse sistema foi criado com o próposito de realizar o controle da propagação do vírus. Nesse projeto puderam ser desenvolvidos os conhecimentos de rede neural, interface de sistemas, utilização de câmeras RGB e Infravermelho, e a como acontece a evolução de um projeto.
