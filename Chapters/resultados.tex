@@ -1,4 +1,4 @@
-\chapter{Resultados}
+\chapter{Métodos e Resultados}
 \label{chap:result}
 Nesta seção serão demonstrados os resultados do trabalhos realizados durante o período do curso de formação em Robótica e Sistemas Autônomos, identificando nos Apêndices os relatórios, estudos, artigos publicados e certificados obtidos. 
 Nos textos são indicados os repositórios onde é possível verificar os códigos, os pré-requisitos para funcionar o pacote do projeto e o tutorial para realizar a simulação ou o modelo real.
@@ -15,24 +15,24 @@ Nos textos são indicados os repositórios onde é possível verificar os códig
 %O \textit{OpenCV (Open Source Computer Vision)} é uma biblioteca de código aberto que tem por finalidade tornar mais acessível para desenvolvedores a visão computacional. Nesse repositório \url{https://github.com/JessMotta/opencv_learning} é possível encontrar o código estruturado em \textit{Python} e os conhecimentos obtidos no primeiro contato com \textit{OpenCV} e suas possibilidades de aplicação. Além do que nos foi orientado que essa biblioteca seria muito utilizada para os projetos que iríamos desenvolver na área de robótica e sistemas autônomos. 
 
 %--------- NEW SECTION ----------------------
-%\section{Desafio 1.0 }
-%\label{sec:desafio_1}
-%O primeiro desafio, disponível no repositório \url{https://github.com/JessMotta/challenge_ws}, nele é possível verificar os pré-requisitos e o que é necessário para executar a simulação. Na Figura \ref{fig:cimatec3_4} tem-se o ambiente externo entre os prédios CIMATEC 3 e 4.   
+\section{Desafio 1.0 }
+\label{sec:desafio_1}
+Este desafio foi feito individualmente, e ele foi realizado com o objetivo de programar o robô da \textit{Clearpath Robotics- Husky}, no ambiente de simulação do \textit{Gazebo}. A área de operação desse robô foi a área externa entre os prédios do CIMATEC 3 e 4, mostrada na Figura \ref{fig:cimatec3_4}. O \textit{Husky} tinha como missão explorar esse ambiente externo a procura de uma bola amarela, e ao identificar esta ele deveria ir até ela e parar de frente para mesma informando que a missão foi completada. Como nesse desafio foi realizada apenas a simulação, apenas o computador foi utilizado.  
 
 
-%\begin{figure}[H]
- %   \caption{Área externa do CIMATEC 3 e 4, ambiente de simulação do \textit{Gazebo}}
-  %  \centering
-   % \includegraphics[width= \textwidth]{Figures/cimatec4.png}
-    %\caption*{Fonte: Grupo de Formação em Robótica e Sistemas Autônomos}
-    %\label{fig:cimatec3_4}
-%\end{figure}
+\begin{figure}[H]
+    \caption{Área externa do CIMATEC 3 e 4, ambiente de simulação do \textit{Gazebo}}
+    \centering
+    \includegraphics[width= \textwidth]{Figures/cimatec4.png}
+    \caption*{Fonte: Grupo de Formação em Robótica e Sistemas Autônomos}
+    \label{fig:cimatec3_4}
+\end{figure}
 
 
 
 \section{Relatório Parcial do Manipulador TIMON-HM- Desafio 2.0 }
 \label{sec:desafio_2}
-Este desafio está disponível no repositório \url{https://github.com/Brazilian-Institute-of-Robotics/TIMON\_hm\_manipulator}, onde neste também tem os pré-requisitos e o tutorial de como executar a simulação. Na Figura \ref{fig:manipulador_simulacao} é possível verificar o manipulador robótico TIMON-HM no ambiente de simulação do \textit{Gazebo}. No Apêndice \ref{append:timon} encontra-se o relatório elaborado para esse desafio, com todas as especificações do mesmo, o estado da arte, metodologia e materiais utilizados.
+O segundo desafio foi realizado em grupo, onde um manipulador deveria ser concebido desde sua fase inicial modelando toda sua estrutura e posteriormente realizada a simulação deste no \textit{Gazebo}, com a missão da câmera integrada ao manipulador identificar o \textit{tag ArUco} na caixa e pressionar o botão. Este desafio também foi realizada apenas a simulação visto na Figura \ref{fig:manipulador_simulacao}. No Apêndice \ref{append:timon} encontra-se o relatório elaborado para esse desafio, com todas as especificações do mesmo, o estado da arte, metodologia e materiais utilizados.
 
 \begin{figure}[H]
     \caption{Realização do desafio no ambiente de simulação do \textit{Gazebo}}
@@ -46,7 +46,8 @@ Este desafio está disponível no repositório \url{https://github.com/Brazilian
 
 \section{Resultado do Manipulador Robótico JeRoTIMON- Desafio 2.2 }
 \label{sec:desafio_2_2}
-Este desafio está no mesmo repositório \url{https://github.com/Brazilian-Institute-of-Robotics/TIMON\_hm\_manipulator} onde tem a simulação, há também uma parte reservada para o a utilização em ambiente real. Na Figura \ref{fig:manipulador_real} é demonstrado o manipulador JeRoTIMON real e a caixa, e o mesmo executando a missão de pressionar o botão. O relatório elaborado para esse desafio, é o mesmo do \ref{sec:desafio_2}, onde é possível encontrar maiores detalhes do projeto real. No Apêndice \ref{append:jerotimon} está disponível o relatório gerado para esse projeto.
+Este desafio foi para construir o modelo real do manipulador JeRoTIMON modelado e simulado no desafio \ref{sec:desafio_2}, realizado em grupo, onde o objetivo era o mesmo, reconhecer a \textit{tag ArUco} na caixa e pressionar o botão, só que dessa vez no ambiente real. Os materiais utilizados nesse desafio foram perfis de alumínio, motores \textit{Dynamixel}, câmera RGB modelo \textit{Teledyne Genie Nano C2590},  peças modeladas no \textit{OnShape} e impressas em \textit{ABS} por uma impressora 3D, conexões para alimentação e para comunicação.
+Na Figura \ref{fig:manipulador_real} é demonstrado o manipulador JeRoTIMON real e a caixa, e o mesmo executando a missão de pressionar o botão. No Apêndice \ref{append:jerotimon} está disponível o relatório gerado para esse projeto.
 
 
 
@@ -62,7 +63,8 @@ Este desafio está no mesmo repositório \url{https://github.com/Brazilian-Insti
 
 \section{TIMON- HM- Desafio 2.5}
 \label{sec:desafio_2_5}
-O desafio 2.5, disponível no repositório \url{https://github.com/Brazilian-Institute-of-Robotics/TIMON_hm-2-5} onde contam os códigos, pré-requisitos e tutorial para instalação e execução das simulações. Na Figura \ref{fig:marcha_darwinop} tem-se os robôs executando a programação da marcha, e na Figura \ref{fig:revezamento_darwinop} tem-se os robôs executando o código do revezamento. No Apêndice \ref{append:readme_darwinop} está o \textit{Read me} do repositório.
+O desafio 2.5 foi realizado em equipe, a mesma do desafio \ref{sec:desafio_2}, onde o robô programado foi o \textit{Darwin-OP} e este deveria realizar duas missões, a primeira, é a marcha, onde quatro robôs \textit{Darwin-OP} deveriam andar de forma sincronizada de um ponto a outro da pista de corrida. E a segunda missão foi realizada a programação para que os quatro robôs realizassem a corrida com revezamento, onde cada robô está posicionado numa parte específica da pista de corrida e ao chegar próximo um do outro eles mantém por um período a movimentação sincronizada depois o anterior para e o outro segue, igualmente a uma corrida com revezamento real.
+Na Figura \ref{fig:marcha_darwinop} tem-se os robôs executando a programação da marcha, e na Figura \ref{fig:revezamento_darwinop} tem-se os robôs executando o código do revezamento. No Apêndice \ref{append:readme_darwinop} está o \textit{Read me} do repositório.
 
 
 
@@ -86,7 +88,10 @@ O desafio 2.5, disponível no repositório \url{https://github.com/Brazilian-Ins
 
 \section{UGV SACI: Integrado com Detecção Visual e Manipulador- Desafio 3.0}
 \label{sec:desafio_3_0}
-Como resultado obtido desse projeto é possível ver nas Figuras \ref{fig:ambiente_saci}, \ref{fig:warthog_simulacao} e \ref{fig:warthog_desafio_3}, respectivamente, o ambiente externo modelado na simulação, o robô no ambiente de simulação e este no ambiente real. No link \url{https://github.com/Brazilian-Institute-of-Robotics/wbm_ekfslam} está o repositório com os códigos do projeto. E no Apêndice \ref{append:saci} está inserido o relatório gerado para esse projeto.
+Neste desafio foi desenvolvido o Saci, que integra o veículo autônomo da \textit{Clearpath Robotics Warthog} equipado com sensores (câmeras, LiDAR e GPS) e o manipulador robótico JeRoTIMON, com o propósito de transformá-lo em um robô autônomo. Este foi construído com o intuito de que o mesmo tivesse navegação autônoma para realizar investigação em ambiente externo e construir um mapa deste ambiente, detectasse a "bomba" escondida, e realizasse o desarme da bomba através do manipulador. 
+Esse projeto foi desenvolvido em duas etapas, a de simulação, onde foram utilizados o software  \textit{Gazebo} e a ferramenta de visualização \textit{Rviz}, e para configuração do pacote de parâmetros do manipulador foi utilizado \textit{MoveIt}. E em paralelo foi desenvolvido este robô em sua versão real, onde foi possível realizar testes e verificar seu desempenho em campo.
+
+Como resultado obtido desse projeto é possível ver nas Figuras \ref{fig:ambiente_saci}, \ref{fig:warthog_simulacao} e \ref{fig:warthog_desafio_3}, respectivamente, o ambiente externo modelado na simulação, o robô no ambiente de simulação e este no ambiente real. No Apêndice \ref{append:saci} está inserido o relatório gerado para esse projeto.
 
 
 \begin{figure}[H]
@@ -119,11 +124,13 @@ Como resultado obtido desse projeto é possível ver nas Figuras \ref{fig:ambien
 
 \section{Analíse estatística R\&R da simulação do robô Darwin OP }
 \label{sec:analise_darwin}
+Teve como objetivo analisar o sistema de medição dos dados coletados durante os testes realizados nas etapas: de marcha e de revezamento do Desafio 2.5 (\ref{sec:desafio2_5}), utilizando o método de análise de variância (ANOVA). Nessa análise foi possível aplicar os conhecimentos obtidos em estatística, utilizando a ferramenta e linguagem de programação \textit{R} em um projeto realizado durante o curso, a fim de verificar o desempenho desse projeto, exemplo, a análise de precisão produzida através do estudo R\&R (Repetibilidade e Reprodutibilidade). Foram utilizadas apenas as ferramentas de simulação e para realização do estudo estatístico.
 O resultado proveniente deste estudo está descrito no documento Avaliação do Sistema de Medição- TIMON 2.5 no Apêndice \ref{append:darwinop}. Onde estão expostos dos dados coletados e a interpretação dos resultados obtidos.
 
 
 \section{Planejamento de Experimentos (DOE) -Helicóptero de Papel (TIMON-HM)}
 \label{sec:analise_doe}
+Esse experimento teve como objetivo aplicar os conceitos de Planejamento de Experimento- \textit{DOE}, a um modelo de helicóptero de papel. O propósito principal foi identificar quais são os fatores que mais influenciam seu tempo de voo e como estas variáveis podem melhorar o seu desempenho. Durante o processo, foi utilizado um modelo de helicóptero em papel onde foi medido o seu tempo de voo em duas alturas diferentes, além disto, foram adicionados adesivos e um clipe em sua estrutura a fim de verificar a influência da variação destes parâmetros no resultado final. Esse estudo proporcionou a aplicação do aprendizado adquirido ao uso da ferramenta e linguagem R usada para manipulação, análise e visualização de dados, e dos conhecimentos de Estatística. 
 Esse estudo resultou no relatório Planejamento de Experimentos (DOE) -Helicóptero de Papel (TIMON-HM) disponível no Apêndice \ref{append:doe}, onde neste consta informações sobre o que é o \textit{DOE}, como e qual o motivo da escolha dos fatores de influência e os níveis e os resultados obtidos. 
 
 \section{Resultado do Artigo Manipulador Robótico TIMON-HM- Evento SAPCT 2020 }
@@ -133,4 +140,5 @@ Para o evento V Seminário de Avaliação de Pesquisa Científica e Tecnológica
 
 \section{Resultado do Artigo publicado TRIS: Thermal Remote Identification System of Feverish People- Evento SIINTEC 2020 }
 \label{sec:siintec}
+Esse artigo, que possui também um sistema real de mesmo nome \textit{(TRIS)}, foi modelado a partir da necessidade exposta pela pandemia do COVID-19, para identificar pessoas  foram usadas câmeras (RGB e Infravermelho), um computador para utilizar uma rede neural, e que identificasse pessoas com temperatura acima de 37,8 $^\circ$C, e informasse que aquela pessoa em questão era objeto de interesse pois estaria com febre, ou estado febril, que é um dos sintomas do COVID-19. Esse sistema foi criado com o próposito de realizar o controle da propagação do vírus. Nesse projeto puderam ser desenvolvidos os conhecimentos de rede neural, interface de sistemas, utilização de câmeras RGB e Infravermelho, e a como acontece a evolução de um projeto.
 O resultado obtido do projeto do \textit{TRIS} foi o artigo publicado no evento VI International Symposium on Innovation and Technology (SIINTEC) 2020, e posteriormente sua premiação em primeiro lugar dentre os trabalhos apresentados. Este artigo e o certificado de participação nestes evento constam, respectivamente, nos Apêndices \ref{append:siintec} e \ref{append:certificado_siintec}.
